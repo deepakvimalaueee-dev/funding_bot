@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Funding Assistant</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="app__header">
+      <h1>Funding Assistant</h1>
+      <p class="app__tagline">Conversational helper powered by the Funding Assistant API.</p>
+    </header>
+
+    <main class="chat" id="chat"></main>
+
+    <form class="composer" id="composer">
+      <input
+        type="text"
+        id="messageInput"
+        class="composer__input"
+        placeholder="Type your message..."
+        autocomplete="off"
+        required
+      />
+      <button type="submit" class="composer__send">Send</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
